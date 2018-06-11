@@ -2,7 +2,7 @@
 with import <nixpkgs> {};
 
 let
-    p = python27.withPackages (ps: with ps;
+    p = python36.withPackages (ps: with ps;
           [
             jupyter_client
             jupyter_console
